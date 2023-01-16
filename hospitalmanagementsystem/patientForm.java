@@ -214,7 +214,7 @@ public class patientForm extends javax.swing.JFrame {
         
         try{
             BufferedWriter writer= new BufferedWriter(new FileWriter(".\\Patientform.txt"));
-            writer.write("name: "+pname);
+            writer.write("Name: "+pname);
             writer.newLine();
             writer.write("Guardians / Parents: " +gname);
             writer.newLine();
